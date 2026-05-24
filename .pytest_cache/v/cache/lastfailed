@@ -1,0 +1,19 @@
+{
+  "test_first.py::test_google_search[chromium]": true,
+  "test_wikipedia.py::test_wikipedia_python_search[chromium]": true,
+  "test_flipkart.py::test_flipkart_login[chromium]": true,
+  "test_screenshots.py::test_automatic_screenshot_on_failure[chromium]": true,
+  "tests/test_fixtures.py::test_login_page_loaded": true,
+  "tests/test_fixtures.py::test_valid_login_with_fixture": true,
+  "tests/test_fixtures.py::test_products_visible": true,
+  "tests/test_fixtures.py::test_add_single_item": true,
+  "tests/test_fixtures.py::test_add_multiple_items": true,
+  "tests/test_fixtures.py::test_checkout_with_fixture": true,
+  "tests/e2e/test_api.py::test_create_user": true,
+  "tests/e2e/test_api.py::test_update_user": true,
+  "tests/e2e/test_api.py::test_delete_user": true,
+  "tests/e2e/test_api.py::test_api_login_success": true,
+  "tests/e2e/test_api.py::test_api_login_failure": true,
+  "tests/e2e/test_report_demo.py::test_intentional_failure[chromium]": true,
+  "tests/e2e/test_allure_demo.py::test_intentional_failure[chromium]": true
+}
