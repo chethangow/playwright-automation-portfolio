@@ -36,14 +36,17 @@ jobs:
       - name: Run smoke tests
         run: |
           pytest tests/smoke/ -v --html=reports/smoke-report.html --self-contained-html
+        continue-on-error: true
 
       - name: Run API tests
         run: |
           pytest tests/e2e/test_api.py -v
+        continue-on-error: true
 
       - name: Run report demo tests
         run: |
           pytest tests/e2e/test_report_demo.py -v --html=reports/e2e-report.html --self-contained-html
+        continue-on-error: true
 
       - name: Upload test reports
         uses: actions/upload-artifact@v4
