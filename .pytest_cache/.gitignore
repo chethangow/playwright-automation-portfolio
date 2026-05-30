@@ -1,24 +1,13 @@
 @"
-# Python
+.env
 __pycache__/
 *.pyc
-*.pyo
 .pytest_cache/
-
-# Environment
-.env
-venv/
-
-# Test artifacts
 videos/
 downloads/
-reports/allure-results/
 allure-tool/
 allure.zip
-
-# Screenshots (optional — keep or ignore)
-screenshots/
-
-# VS Code
-.vscode/
+ai_generated/
+data/session.json
+data/fake_session.json
 "@ | Out-File -FilePath .gitignore -Encoding ascii
